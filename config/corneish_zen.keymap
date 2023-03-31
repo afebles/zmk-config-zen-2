@@ -14,9 +14,19 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        third_layer {
             bindings = <&mo 3>;
             key-positions = <36 41>;
+        };
+
+        exclamation_mark {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <35 0>;
+        };
+
+        quotation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <35 22>;
         };
     };
 
