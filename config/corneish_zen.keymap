@@ -14,14 +14,9 @@
     combos {
         compatible = "zmk,combos";
 
-        third_layer {
-            bindings = <&mo 3>;
-            key-positions = <36 41>;
-        };
-
         exclamation_mark {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <35 0>;
+            key-positions = <35 1>;
         };
 
         quotation {
@@ -46,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
- &kp TAB  &kp Q  &kp W   &kp E             &kp R      &kp T        &kp Y  &kp U      &kp I    &kp O         &kp P         &kp BSPC
-&kp CAPS  &kp A  &kp S   &kp D             &kp F      &kp G        &kp H  &kp J      &kp K    &kp L     &kp COLON        &kp ENTER
- &kp ESC  &kp Z  &kp X   &kp C             &kp V      &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp RIGHT_SHIFT
-                        &tog 1  &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &mo 3     &tog 2
+ &kp TAB  &kp Q  &kp W  &kp E             &kp R      &kp T        &kp Y  &kp U      &kp I    &kp O         &kp P         &kp BSPC
+&kp CAPS  &kp A  &kp S  &kp D             &kp F      &kp G        &kp H  &kp J      &kp K    &kp L     &kp COLON        &kp ENTER
+ &kp ESC  &kp Z  &kp X  &kp C             &kp V      &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp RIGHT_SHIFT
+                        &to 1  &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &mo 3     &tog 2
             >;
         };
 
