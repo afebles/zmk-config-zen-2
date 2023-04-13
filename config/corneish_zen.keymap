@@ -28,6 +28,76 @@
             bindings = <&kp AT>;
             key-positions = <35 2>;
         };
+
+        hashtag {
+            bindings = <&kp HASH>;
+            key-positions = <35 3>;
+        };
+
+        euro {
+            bindings = <&kp DOLLAR>;
+            key-positions = <35 4>;
+        };
+
+        percentage {
+            bindings = <&kp PERCENT>;
+            key-positions = <35 5>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <35 6>;
+        };
+
+        and {
+            bindings = <&kp AMPS>;
+            key-positions = <35 7>;
+        };
+
+        star {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <35 8>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <35 9>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <35 10>;
+        };
+
+        underescore {
+            bindings = <&kp UNDER>;
+            key-positions = <35 11>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <35 18>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <35 19>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <35 20>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <35 21>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <35 22>;
+        };
     };
 
     macros {
