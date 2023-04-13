@@ -23,6 +23,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <35 22>;
         };
+
+        new_combo {
+            bindings = <&kp AT>;
+            key-positions = <35 2>;
+        };
     };
 
     macros {
